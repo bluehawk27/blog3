@@ -1,0 +1,32 @@
+<div class= "wrapper wrapper_padding clearfix">
+
+  <div class="col-1 about homepage_content">
+    <h2>About</h2>
+    <hr>
+    <p>I Rock!</p>
+    <p>for many reasons</p>
+    <p>I'll tell you all <a href="#">about that</a> later</p>
+  </div>
+
+  <div class="col-2 homepage_content">
+    <h2>Shit I Say</h2>
+    <hr>
+
+    <% @post.each do |post| %>
+      <h3><a href="#"><%= link_to post.title, post %></a></h3>
+      <p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
+    <% end %>
+
+  </div>
+
+  <div class="col-3 homepage_content">
+    <h2>Stuff I've Built</h2>
+    <hr>
+    <h3><a href="#">Medmento</a></h3>
+    <p class="date">Friday May 5th</p>
+    <h3><a href="#">Recipe Menu</a></h3>
+    <p class="date">Monday May 8th</p>
+    <h3><a href="#">Some Other Cool Shit</a></h3>
+    <p class="date">Wednesday May 10th</p>
+  </div>
+</div>
