@@ -6,7 +6,7 @@
   </header>
 
   <div id="content">
-    <p><%= @post.content %></p><br><br>
+    <p><%= markdown @post.content %></p><br><br>
   </div>
 
   <hr>
@@ -20,3 +20,7 @@
 
   <hr>
 </div>
+
+
+<%= link_to "Edit", edit_post_path %>
+<%= link_to "Delete", post_path(@post), method: :delete, data: {confirm: "Are you sure that you want to delete this Article?"} %>

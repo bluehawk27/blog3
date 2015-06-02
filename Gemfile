@@ -25,6 +25,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+#syntax highlighting
+gem 'redcarpet', '~> 3.2.3'
+
+#syntax coloring
+gem 'pygments.rb', '~> 0.6.3'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
