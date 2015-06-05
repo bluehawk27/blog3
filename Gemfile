@@ -39,6 +39,9 @@ gem 'redcarpet', '~> 3.2.3'
 #syntax coloring
 gem 'pygments.rb', '~> 0.6.3'
 
+# SEO Friendly URL's
+gem 'friendly_id', '~> 5.1.0'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
