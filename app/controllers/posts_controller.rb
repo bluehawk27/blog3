@@ -2,6 +2,7 @@ class PostsController < ApplicationController
   before_action :find_post, only: [:show, :update, :edit, :destroy]
 
   def index
+    @post = Post.all.order("created_at desc").paginate(page: params[:page], per_page: 5)
   end
 
   def new
