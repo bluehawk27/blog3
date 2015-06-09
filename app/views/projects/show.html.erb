@@ -13,4 +13,8 @@
   </div>
 
   <hr>
+  <div class="button_wrapper">
+    <%= link_to "Edit", edit_project_path %>
+    <%= link_to "Delete", project_path(@project), method: :delete, data: {confirm: "Are you sure that you want to delete this Project?"} %>
+  </div>
 </div>
