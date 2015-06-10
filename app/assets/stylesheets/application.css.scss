@@ -186,6 +186,12 @@ input[type="submit"], .button {
   text-align: center;
 }
 
+.notice, .alert {
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 1px solid #E9E9E9;
+}
+
 @import 'welcome';
 @import 'posts_projects';
 @import 'pygments';
