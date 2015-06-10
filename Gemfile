@@ -48,6 +48,9 @@ gem 'pygments.rb', '~> 0.6.3'
 # SEO Friendly URL's
 gem 'friendly_id', '~> 5.1.0'
 
+#Devise User Authenitcation
+gem 'devise', '~> 3.5.1'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
