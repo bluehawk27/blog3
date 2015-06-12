@@ -15,12 +15,10 @@
       <%= link_to "Articles", posts_path %>
       <%= link_to "Projects", projects_path %>
       <%= link_to "Contact Me", new_contact_path %>
-      <% if !user_signed_in? %>
-        <%= link_to "Admin", new_user_session_path %>
-      <% end %>
       <% if user_signed_in? %>
         <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
       <% else %>
+        <%= link_to "Admin", new_user_session_path %>
       <% end %>
     </nav>
   </header>

@@ -12,7 +12,7 @@
       text-transform: uppercase;
       a {
         text-decoration: none;
-        color: $dark;
+        color: $white;
         &:hover {
           color: $highlight;
         }
@@ -49,11 +49,11 @@
     margin: 0;
     font-weight: 700;
     text-transform: uppercase;
-    color: $dark;
+    color: $white;
     font-size: .8em;
   }
   i {
-    color: $dark;
+    color: $white;
     padding:1em 1.5em;
     &:hover {
       color: $highlight;
@@ -86,7 +86,7 @@
     font-weight: 700;
     font-size: .7em;
     font-style: normal;
-    color: $dark;
+    color: $light;
     &:hover {
       background: $highlight;
       color: $white;
@@ -114,7 +114,7 @@
     padding: 1em 0;
     margin: 3em 0;
     a {
-        color: $light;
+        color: $white;
         margin: 0 1em;
         font-weight: 700;
         font-size: .8em;
