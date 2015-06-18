@@ -10,9 +10,8 @@ $border: #E9E9E9;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
-  background-image:  url('ggbnight1.jpg');
+html {
+  background-image:  url("ggbnight1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -21,8 +20,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: auto;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ggbnight1.jpg', sizingMethod='scale');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ggbnight1.jpg", sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ggbnight1.jpg', sizingMethod='scale')";
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
   width: 100%;
 }
 
