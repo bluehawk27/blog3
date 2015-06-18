@@ -20,6 +20,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:auto;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ggbnight1.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ggbnight1.jpg', sizingMethod='scale')";
 }
 
 .wrapper {
