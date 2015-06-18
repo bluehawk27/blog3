@@ -213,7 +213,7 @@ input[type="submit"], .button {
     .name {
       width: 100%;
       text-align: center;
-      font-size: 4em;
+      font-size: 2em;
       margin: 10px 0;
     }
     nav {
@@ -221,7 +221,7 @@ input[type="submit"], .button {
       text-align: center;
       margin: 10px;
       a {
-        font-size: 2em;
+        font-size: 1em;
       }
     }
   }
@@ -229,9 +229,19 @@ input[type="submit"], .button {
     width: 100%
   }
   #main_footer {
-    font-size: 2.2em;
+    font-size: 1em;
     line-height: 10%;
     padding: 1em 5%;
+    text-align: center;
+    .copyright {
+      width: 100%;
+      text-align: center;
+    }
+    nav {
+      width: 100%;
+      text-align: center;
+    }
+
   }
 }
 
