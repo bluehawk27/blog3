@@ -99,6 +99,7 @@ hr {
 }
 
 #main_navigation {
+  width: 100%;
   padding: 2.5em 5%;
   border-bottom: 1px solid $border;
   .name {
@@ -201,6 +202,48 @@ input[type="submit"], .button {
   text-align: center;
   padding: 1em 0;
   border-bottom: 1px solid #E9E9E9;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 319px) and (max-device-width : 480px) {
+  #main_navigation {
+    .name {
+      width: 100%;
+      text-align: center;
+      font-size: 4em;
+      margin: 10px 0;
+    }
+    nav {
+      float: none;
+      text-align: center;
+      margin: 10px;
+      a {
+        font-size: 2em;
+      }
+    }
+  }
+  hr {
+    width: 100%
+  }
+  #main_footer {
+    font-size: 2.2em;
+    line-height: 10%;
+    padding: 1em 5%;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #main_navigation {
+    .name {
+      font-size: 1.4em ;
+    }
+    nav {
+      a {
+        font-size: 1.25em;
+      }
+    }
+  }
 }
 
 @import 'welcome';
