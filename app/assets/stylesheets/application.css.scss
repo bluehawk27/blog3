@@ -12,7 +12,6 @@ $border: #E9E9E9;
 
 body {
   font-family: 'Raleway', sans-serif;
-  width: 100%;
   background-image:  asset-data-url("ggbnight1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -21,7 +20,6 @@ body {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: auto;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ggbnight1.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ggbnight1.jpg', sizingMethod='scale')";
 }
