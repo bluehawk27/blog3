@@ -1,3 +1,4 @@
+
 <h1 id="page_title">Stuff I've written<br><br>
   <% if user_signed_in? %>
     <%= link_to "New Post", new_post_path, class: "button" %>
@@ -8,7 +9,7 @@
 <div id="posts_wrapper" class="skinny_wrapper">
   <% @post.each do |p| %>
   <div class="post">
-    <h2><a href="#"><%= link_to p.title, p %></a></h2>
+    <h2><%= link_to p.title, p %></h2>
     <hr>
   </div>
   <% end %>
