@@ -8,7 +8,7 @@
 <div id="posts_wrapper" class="skinny_wrapper">
   <% @post.each do |p| %>
   <div class="post">
-    <p class="date"><%= p.created_at.strftime('%A, %B %d') %></p>
+    <!-- <p class="date"><%= p.created_at.strftime(date format) %></p> -->
     <h2><a href="#"><%= link_to p.title, p %></a></h2>
     <hr>
   </div>
