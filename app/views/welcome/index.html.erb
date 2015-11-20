@@ -3,10 +3,10 @@
   <div class="col-1 about homepage_content">
     <h2>About</h2>
     <hr>
-    <p>I am a recent graduate from Dev Bootcamp, and I'm passionate about learning anything that leads to personal and professional growth as a web developer.</p>
+    <p>I am a Ruby on Rails Engineer, and I'm passionate about learning anything that leads to personal and professional growth as a web developer.</p>
     <p>I studied Aviation Flight Operations at SJSU and started a successful business servicing the general and commercial airline industry in the Bay Area.  I created my own website and web presence for that company and discovered a joy for web development that I hadn’t previously known.  I have since sold off my company and dedicated my time to advancing in that field and have become an avid student of web technologies.</p>
     <p>I also happen to love working on cars, and geeking out to Sci-Fi movies and television series'!</p>
-    <p>On this site you'll find links to some of the projects that I've worked on from scratch, either with a team or on my own.  You'll also hopefully learn a little about me personally.</p>
+    <p>On this site you'll find links to some of the projects that I've worked on from scratch, mostly on my own.  You'll also hopefully learn a little about me personally.</p>
     <p>This blog site is built on Ruby on Rails.</p>
     <p>I'd love to hear your thoughts and feedback so please feel free to <%= link_to "contact me", new_contact_path %> at any time!</p>
   </div>
@@ -17,7 +17,6 @@
 
     <% @post.each do |post| %>
       <h3><%= link_to post.title, post %></h3><hr>
-
     <% end %>
 
   </div>
