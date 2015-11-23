@@ -1,4 +1,4 @@
-#posts_wrapper {
+#posts-wrapper {
   padding: 3em 0;
   .post {
     text-align: center;
@@ -25,7 +25,7 @@
 }
 //-------------Posts_Show Page
 
-#post_show_content {
+#post-show-content {
   header {
     text-align: center;
     .date {
@@ -42,7 +42,7 @@
   }
 }
 
-#share_box {
+#share-box {
   text-align: center;
   p {
     padding-bottom: 0 0 1em 0;
@@ -76,7 +76,7 @@
 .pagination {
   text-align: center;
   margin: 0 0 3em 0;
-  a, .previous_page, .current, .next_page {
+  a, .previous-page, .current, .next-page {
     padding: .75em 1em;
     margin: 0 .5em;
     border-radius: .15em;
@@ -107,7 +107,7 @@
 }
 
 //-----------Admin_links
-#admin_links {
+#admin-links {
     border-top: 1px solid $border;
     border-bottom: 1px solid $border;
     text-align: center;

@@ -1,6 +1,6 @@
-  <h1 id="page_title">Change your password</h1>
+  <h1 id="page-title">Change your password</h1>
 
-<div class="skinny_wrapper wapper_padding">
+<div class="skinny-wrapper wapper-padding">
   <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
     <%= devise_error_messages! %>
     <%= f.hidden_field :reset_password_token %>

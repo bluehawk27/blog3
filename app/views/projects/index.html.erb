@@ -1,10 +1,10 @@
-<h1 id="page_title">Projects I've Built<br><br>
+<h1 id="page-title">Projects I've Built<br><br>
   <% if user_signed_in? %>
     <%= link_to "New Project", new_project_path, class: "button" %>
   <% end %>
 </h1>
 
-<div id="posts_wrapper" class="skinny_wrapper">
+<div id="posts-wrapper" class="skinny-wrapper">
   <% @project.each do |p| %>
   <div class="post">
     <h2><%= link_to p.title, p %></h2>
