@@ -10,7 +10,7 @@
     <%= csrf_meta_tags %>
 </head>
 <body>
-  <header id="main-navigation" class="clearfix">
+  <header id="main-navigation" class="clearfix" data-turbolinks-permanent>
     <%= link_to "Alberto Villacorta", root_path, class: "name" %>
     <nav>
       <%= link_to "Articles", posts_path %>
@@ -34,7 +34,7 @@
 
 <%= yield %>
 
-  <footer id="main-footer">
+  <footer id="main-footer" data-turbolinks-permanent>
     <p class="copyright"> &copy; 2015 Alberto Villacorta</p>
     <nav>
       <a href="https://github.com/bluehawk27" target="_blank"><i class="fa fa-github"></i></a>
