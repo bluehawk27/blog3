@@ -36,6 +36,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    addressable (2.4.0)
     arel (6.0.0)
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
@@ -79,6 +80,8 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.2)
+    launchy (2.4.3)
+      addressable (~> 2.3)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -89,6 +92,7 @@ GEM
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.7.0)
+    mixlib-cli (1.5.0)
     multi_json (1.11.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
@@ -146,6 +150,10 @@ GEM
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
     ruby-progressbar (1.7.5)
+    sandi_meter (1.2.0)
+      json
+      launchy
+      mixlib-cli
     sass (3.4.14)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -203,6 +211,7 @@ DEPENDENCIES
   rails_12factor
   rails_best_practices (~> 1.15, >= 1.15.7)
   redcarpet (~> 3.2.3)
+  sandi_meter (~> 1.2)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring

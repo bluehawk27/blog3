@@ -24,6 +24,7 @@ gem 'pygments.rb', '~> 0.6.3'
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 3.5.1'
 gem 'rails_best_practices', '~> 1.15', '>= 1.15.7'
+gem 'sandi_meter', '~> 1.2'
 
 
 
