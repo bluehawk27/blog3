@@ -16,7 +16,7 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to @post, notice: "Your Article Successfully Created"
     else
-      render 'new', notice: "Ooops! Your Article Wasn't Created."
+      render :new, notice: "Ooops! Your Article Wasn't Created."
     end
   end
 
@@ -30,7 +30,7 @@ class PostsController < ApplicationController
     if @post.update(post_params)
       redirect_to @post, notice: "Your Article Was Updated!"
     else
-      render 'edit'
+      render :edit
     end
   end
 
@@ -48,5 +48,4 @@ class PostsController < ApplicationController
   def find_post
     @post = Post.friendly.find(params[:id])
   end
-
 end

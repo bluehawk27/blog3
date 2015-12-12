@@ -14,7 +14,6 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'coffee-rails', '~> 4.1.0'
 gem 'will_paginate', '~> 3.0.7'
-gem "rails_best_practices"
 gem 'mail_form', '~> 1.5.1'
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -24,6 +23,7 @@ gem 'redcarpet', '~> 3.2.3'
 gem 'pygments.rb', '~> 0.6.3'
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 3.5.1'
+gem 'rails_best_practices', '~> 1.15', '>= 1.15.7'
 
 
 

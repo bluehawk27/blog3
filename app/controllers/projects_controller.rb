@@ -16,7 +16,7 @@ class ProjectsController < ApplicationController
     if @project.save
       redirect_to @project, notice: "Your Project Was Successfully Saved!"
     else
-      render 'new', notice: "Ooops! Your Project Wasn't Created."
+      render :new, notice: "Ooops! Your Project Wasn't Created."
     end
   end
 
@@ -30,7 +30,7 @@ class ProjectsController < ApplicationController
     if @project.update(project_params)
       redirect_to @project, notice: "Your Project Was Updated!"
     else
-      render 'edit'
+      render :edit
     end
   end
 

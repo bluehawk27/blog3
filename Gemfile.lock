@@ -201,7 +201,7 @@ DEPENDENCIES
   pygments.rb (~> 0.6.3)
   rails (= 4.2.1)
   rails_12factor
-  rails_best_practices
+  rails_best_practices (~> 1.15, >= 1.15.7)
   redcarpet (~> 3.2.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
