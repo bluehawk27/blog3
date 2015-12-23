@@ -11,7 +11,7 @@ $border: #E9E9E9;
 }
 
 html {
-  background-image:  asset-data-url("ggbnight1.jpg");
+  background-image:  asset-data-url("struct.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -20,8 +20,8 @@ html {
   -o-background-size: cover;
   background-size: cover;
   height: auto;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="ggbnight1.jpg", sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ggbnight1.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="struct.jpg", sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='struct.jpg', sizingMethod='scale')";
 }
 
 body {
